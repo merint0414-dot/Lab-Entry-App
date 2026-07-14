@@ -1,5 +1,6 @@
 import axios from 'axios'
 import React, { useState } from 'react'
+import NavigationBar from './NavigationBar'
 
 const AddLog = () => {
  const [input, setInput] = useState({
@@ -48,8 +49,7 @@ const AddLog = () => {
 
   return (
     <div>
-     
-
+     <NavigationBar/>
       <div className="container mt-4">
         <div className="card shadow">
 
